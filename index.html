@@ -13,16 +13,16 @@
 		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
 		<form action="">
-			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
-			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
+			<label for="Nombre">Nombre:</label>
+			<input id= "nombre"  type="text">
+			<label for="apellido"> Apellido:</label>
+			<input id= "Apellido" type="text">
 			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
+			<input id= "email" type="email">
 			<label for="Dirección">Dirección: </label>
-			<input type="text">
+			<input id= "direccion" type="text">
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+			<input id= "telefono" type="text">
 			<label for="">Selecciona un pack:</label>
 			<select name="" id="">
 				<option value="">Escoje tu opción</option>
@@ -31,8 +31,8 @@
 				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
-			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+			<input id="checkbox" type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
+			<button  id= "submit" type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>
 	</section>
 	<section id="clientes">
